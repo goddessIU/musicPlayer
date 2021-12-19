@@ -1,0 +1,65 @@
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+
+
+.multi-text-omitted {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.single-text-omitted {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    min-width: 1000px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}

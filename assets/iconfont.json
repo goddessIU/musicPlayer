@@ -1,0 +1,93 @@
+{
+  "id": "2996330",
+  "name": "musicPlayer",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1159896",
+      "name": "单曲循环",
+      "font_class": "danquxunhuan",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "1488899",
+      "name": "列表循环",
+      "font_class": "liebiaoxunhuan",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "2076215",
+      "name": "音量",
+      "font_class": "yinliang",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "2674483",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5387492",
+      "name": "暂停",
+      "font_class": "zanting1",
+      "unicode": "eaea",
+      "unicode_decimal": 60138
+    },
+    {
+      "icon_id": "7417088",
+      "name": "随机播放",
+      "font_class": "suijibofang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11487977",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "11487978",
+      "name": "arrow-left",
+      "font_class": "arrow-left",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "15834519",
+      "name": "播放列表",
+      "font_class": "bofangliebiao",
+      "unicode": "e7a1",
+      "unicode_decimal": 59297
+    },
+    {
+      "icon_id": "20312916",
+      "name": "播放中",
+      "font_class": "bofangzhong",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "25468363",
+      "name": "上一曲",
+      "font_class": "shangyiqu",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "25468365",
+      "name": "下一曲",
+      "font_class": "xiayiqu",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/recommendList.css">
+    <script src='assets/iconfont.js'></script>
+    
+    <script src='./js/index.js' type='module'></script>
+</head>
+
+<body>
+    <div class="display-flex flex-column justify-content-between wrapper">
+        <!-- 首页内容 -->
+        <header class='head'>播放器首页</header>
+        <!-- 中间主体部分 -->
+        <section id='app'></section>
+        <!-- 播放器控制 -->
+        <section class='player-control display-flex justify-content-start'>
+            <!-- 左侧歌曲信息 -->
+            <div class="player-control-songInfo       display-flex justify-content-start">
+                    <a class="img pointer" href="#/player/:167882" id="playerCover">
+                        <img src="" alt="">
+                    </a>
+                    <a class="img pointer display-none" href="#/recommendList/:3136952023" id="playerCoverBack">
+                        <img src="" alt="">
+                    </a>
+                <div class="song-content display-flex flex-column align-items-start">
+                    <div class="song-name">大碗宽面</div>
+                    <div class="singer-name single-text-omitted ">吴亦凡giegieyydsyydsyyds</div>
+                </div>
+            </div>
+            <!-- 右侧控件 -->
+            <div class="player-control-unit display-flex justify-content-between">
+                <div class="play-control ">
+                    <svg class="icon" aria-hidden="true" id='player-prev'>
+                        <use xlink:href="#icon-shangyiqu"></use>
+                      </svg>
+                      <svg class="icon" aria-hidden="true" id='player-control'>
+                        <use xlink:href="#icon-bofangzhong"></use>
+                      </svg>
+                      <svg class="icon" aria-hidden="true" id='player-next'>
+                        <use xlink:href="#icon-xiayiqu"></use>
+                      </svg>
+                </div>
+                <div class="song-progress  display-flex justify-content-between">
+                    <div class='time-progress display-flex justify-content-between'>
+                        <span class="current">00:00</span>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                        <span class='end'>00:00</span>
+                    </div>
+                    <div class="volumn display-flex justify-content-between">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yinliang"></use>
+                          </svg>
+                          <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-dot"></div>
+                          </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <svg class="icon" aria-hidden="true" id='musicMode'>
+                        <use xlink:href="#icon-liebiaoxunhuan"></use>
+                      </svg>
+                      <svg class="icon" aria-hidden="true" id='playerList'>
+                        <use xlink:href="#icon-bofangliebiao"></use>
+                        </svg>
+                </div>
+            </div>
+        </section>
+    </div>
+    <audio src="" id='myAudio'></audio>
+</body>
+</html>

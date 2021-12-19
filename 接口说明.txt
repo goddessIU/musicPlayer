@@ -1,0 +1,6 @@
+接口说明	接口地址	调用例子
+获得轮播图信息	/homepage/block/page	/homepage/block/page
+获得推荐歌单列表	/playlist/detail	/playlist/detail?id=24381616
+获得音乐的播放地址	https://music.163.com/song/media/outer/url	https://music.163.com/song/media/outer/url?id=5243631
+获得歌曲信息	/song/detail	/song/detail?ids=5243631
+获得歌曲歌词	/lyric	/lyric?id=5243631

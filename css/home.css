@@ -1,0 +1,274 @@
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    background-color: #eee;
+}
+
+.wrapper .head {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 100%;
+    color:#fff;
+    font-size: 25px;
+    background-color:green;
+}
+
+.wrapper #app {
+    width: 100%;
+    min-height: 450px;
+}
+
+
+
+.wrapper .w {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.wrapper .w   .carousel-wrapper {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    
+}
+
+.wrapper .w   .carousel-wrapper .poster {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+
+ .wrapper .w   .carousel-wrapper .poster ul{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    /* width: 200%; */
+    top: 0;
+    transition: transform .5s linear;
+    /* background-color: blue; */
+   
+}
+
+
+
+.wrapper .w   .carousel-wrapper .poster  ul li {
+    float: left;
+    /* width: 50%; */
+    height: 100%;
+}
+
+.wrapper .w   .carousel-wrapper .poster ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.wrapper .w   .carousel-wrapper .leftClick, 
+.wrapper .w   .carousel-wrapper .rightClick {
+    position: absolute;
+    z-index: 2000;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+.leftClick {
+    left: 10px;
+}
+
+.rightClick {
+    right: 10px;
+}
+
+.wrapper .w   .carousel-wrapper .leftClick:hover, 
+.wrapper .w   .carousel-wrapper .rightClick:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    z-index: 2000;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-indicators li {
+    width: 50px;
+    height: 5px;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-indicators li.active {
+    background-color: #fff;
+}
+
+.recommend-playlist {
+    width: 100%;
+    margin: 10px 0;
+}
+.recommend-playlist .recommend-header {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.recommend-playlist .recommend-body {
+    width: 100%;
+} 
+
+.recommend-playlist .recommend-body a {
+    width: 18%;
+    display: block;
+    height: 100%;
+}
+
+.recommend-playlist .recommend-body a:hover .recommend-body-item-cover img{
+    transform: scale(1.1);
+}
+
+.recommend-playlist .recommend-body a .recommend-body-item {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+.recommend-playlist .recommend-body .recommend-body-item .recommend-body-item-cover {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.recommend-playlist .recommend-body  .recommend-body-item .recommend-body-item-cover img {
+    width: 100%;
+    height: auto;
+    transition: all .1s linear;
+}
+
+
+.recommend-icon  {
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    z-index: 3000;
+    bottom: 10px; 
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0;
+}
+.recommend-playlist .recommend-body .recommend-body-item .recommend-body-item-cover:hover .recommend-icon {
+    opacity: 1;
+}
+
+.recommend-body-item-text  {
+    width: 100%;
+    margin-top: 5px 0;
+    height: 32px;
+}
+
+
+.wrapper .player-control {
+    height: 65px;
+    width: 100%;
+    background-color: #f6f6f8;
+    /* background-color: blue; */
+}
+
+.wrapper .player-control .player-control-songInfo {
+    width: 20%;
+    height: 100%;
+}
+
+
+.wrapper .player-control .player-control-songInfo .img {
+    padding-left: 10px;
+    width: 30%;
+    height: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.wrapper .player-control .player-control-songInfo .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .player-control .player-control-songInfo .song-content {
+    width: 50%;
+}
+
+
+.wrapper .player-control .player-control-songInfo .song-content > div {
+    margin:4px;
+    width: 100%;
+}
+
+.wrapper .player-control .player-control-unit {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.wrapper .player-control .player-control-unit .play-control{
+    font-size: 25px;
+}
+
+.wrapper .player-control .player-control-unit .list {
+    font-size: 20px;
+}
+
+.wrapper .player-control .player-control-unit .song-progress .progress {
+    height: 4px;
+    background-color: blue;
+    margin: 0 5px;
+    position: relative;
+}
+
+.wrapper .player-control .player-control-unit .song-progress .time-progress .progress {
+    width: 250px;
+}
+
+.wrapper .player-control .player-control-unit .song-progress .volumn .progress {
+    width: 150px;
+}
+
+.wrapper .player-control .player-control-unit .song-progress .progress .progress-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+
+.wrapper .player-control .player-control-unit .song-progress .progress .progress-bar {
+    width: 50%;
+    height: 4px;
+    background-color: pink;
+}
+
+.wrapper .player-control .player-control-unit .song-progress .volumn {
+    margin-left: 20px;
+}

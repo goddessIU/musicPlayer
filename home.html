@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src='assets/iconfont.js'></script>
+</head>
+
+<body>
+    <div class="display-flex flex-column justify-content-between wrapper">
+        <!-- 首页内容 -->
+        <header class='head'>播放器首页</header>
+        <!-- 中间主体部分 -->
+        <section id='app'>
+            <div class="w">
+                <!-- 轮播图 -->
+                <div class="carousel-wrapper">
+                    <div class="carousel-container">
+                        <button class='leftClick'>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                        <button class='rightClick'>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right"></use>
+                            </svg>
+                         </button>
+                        <div class="poster">
+                            <ul>
+                                <li>
+                                    <img src="https://tse2-mm.cn.bing.net/th/id/OIP.tXLPDc_5P-E7ca-KtD_UVAHaEK?pid=ImgDet&rs=1"
+                                        alt="" />
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <ul class="carousel-indicators display-flex justify-content-between">
+                        <li class='active'></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- 推荐歌单 -->
+                <div class="recommend-playlist">
+                    <!-- 推荐歌单表头 -->
+                    <div class="recommend-header">
+                        <h3>推荐歌单<svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right"></use>
+                            </svg></h3>
+
+                    </div>
+                    <ul class="recommend-body  display-flex justify-content-between">
+                        <a href="">
+                            <li class='display-flex flex-column recommend-body-item justify-content-start'>
+                                <div class="recommend-body-item-cover">
+                                    <img src="https://tse2-mm.cn.bing.net/th/id/OIP.ZTmNathhKflijArYDaQEDAHaEo?pid=ImgDet&rs=1"
+                                        alt="" /><svg class="recommend-icon icon" aria-hidden="true">
+                                        <use xlink:href="#icon-zanting"></use>
+                                    </svg>
+                                </div>
+                                <div class="recommend-body-item-text  multi-text-omitted">
+                                    图片使用世界前沿的人工智能技术，为用户甄选海量的高清美图
+                                </div>
+                            </li>
+
+                        </a>
+
+                        <li class='display-flex flex-column recommend-body-item'>
+                            <div class="recommend-body-item-cover">
+                                <img src="https://tse2-mm.cn.bing.net/th/id/OIP.ZTmNathhKflijArYDaQEDAHaEo?pid=ImgDet&rs=1"
+                                    alt="" /><svg class="recommend-icon icon" aria-hidden="true">
+                                    <use xlink:href="#icon-zanting"></use>
+                                </svg>
+                            </div>
+                            <div class="recommend-body-item-text  multi-text-omitted">
+                                图片使用世界前沿的人工智能技术，为用户甄选海量的高清美图
+                            </div>
+                        </li>
+                        <li class='display-flex flex-column recommend-body-item'>
+                            <div class="recommend-body-item-cover">
+                                <img src="https://tse2-mm.cn.bing.net/th/id/OIP.ZTmNathhKflijArYDaQEDAHaEo?pid=ImgDet&rs=1"
+                                    alt="" /><svg class="recommend-icon icon" aria-hidden="true">
+                                    <use xlink:href="#icon-zanting"></use>
+                                </svg>
+                            </div>
+                            <div class="recommend-body-item-text  multi-text-omitted">
+                                图片使用世界前沿的人工智能技术，为用户甄选海量的高清美图
+                            </div>
+                        </li>
+                        <li class='display-flex flex-column recommend-body-item'>
+                            <div class="recommend-body-item-cover">
+                                <img src="https://tse2-mm.cn.bing.net/th/id/OIP.ZTmNathhKflijArYDaQEDAHaEo?pid=ImgDet&rs=1"
+                                    alt="" /><svg class="recommend-icon icon" aria-hidden="true">
+                                    <use xlink:href="#icon-zanting"></use>
+                                </svg>
+                            </div>
+                            <div class="recommend-body-item-text  multi-text-omitted">
+                                图片使用世界前沿的人工智能技术，为用户甄选海量的高清美图
+                            </div>
+                        </li>
+                        <li class='display-flex flex-column recommend-body-item'>
+                            <div class="recommend-body-item-cover">
+                                <img src="https://tse2-mm.cn.bing.net/th/id/OIP.ZTmNathhKflijArYDaQEDAHaEo?pid=ImgDet&rs=1"
+                                    alt="" /><svg class="recommend-icon icon" aria-hidden="true">
+                                    <use xlink:href="#icon-bofangzhong"></use>
+                                </svg>
+                            </div>
+                            <div class="recommend-body-item-text  multi-text-omitted">
+                                图片使用世界前沿的人工智能技术，为用户甄选海量的高清美图
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- 播放器控制 -->
+        <section class='player-control display-flex justify-content-start'>
+            <!-- 左侧歌曲信息 -->
+            <div class="player-control-songInfo display-flex justify-content-start">
+                <div class="img">
+                    <img src="https://th.bing.com/th/id/R7466240255fa48164e1d741fb8b29893?rik=qd9WWhLotZqIAg&riu=http%3a%2f%2fpicture.ik123.com%2fuploads%2fallimg%2f160906%2f3-160Z6154A8.jpg&ehk=T2cuZ%2fECZd2tvUCSXRgW2e2axgZ8c4rM2GQpotzo3Ec%3d&risl=&pid=ImgRaw"
+                        alt="" />
+                </div>
+                <div class="song-content display-flex flex-column align-items-start">
+                    <div class="song-name">大碗宽面</div>
+                    <div class="singer-name single-text-omitted ">吴亦凡giegieyydsyydsyyds</div>
+                </div>
+            </div>
+            <!-- 右侧控件 -->
+            <div class="player-control-unit display-flex justify-content-between">
+                <div class="play-control ">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shangyiqu"></use>
+                    </svg>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-bofangzhong"></use>
+                    </svg>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiayiqu"></use>
+                    </svg>
+                </div>
+                <div class="song-progress  display-flex justify-content-between">
+                    <div class='time-progress display-flex justify-content-between'>
+                        <span class="current">00:00</span>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                        <span class='end'>00:00</span>
+                    </div>
+                    <div class="volumn display-flex justify-content-between">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yinliang"></use>
+                        </svg>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-liebiaoxunhuan"></use>
+                    </svg>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-bofangliebiao"></use>
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

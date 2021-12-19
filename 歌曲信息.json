@@ -1,0 +1,129 @@
+{
+    "songs": [
+        {
+            "name": "月亮惹的祸",
+            "id": 5243631,
+            "pst": 0,
+            "t": 0,
+            "ar": [
+                {
+                    "id": 6469,
+                    "name": "张宇",
+                    "tns": [],
+                    "alias": []
+                }
+            ],
+            "alia": [],
+            "pop": 100,
+            "st": 0,
+            "rt": "600902000005653853",
+            "fee": 8,
+            "v": 888,
+            "crbt": null,
+            "cf": "",
+            "al": {
+                "id": 511419,
+                "name": "大人的情歌",
+                "picUrl": "https://p1.music.126.net/cV5aZJ4et-Nm-5Mj74afoQ==/107752139539289.jpg",
+                "tns": [],
+                "pic": 107752139539289
+            },
+            "dt": 260773,
+            "h": {
+                "br": 320000,
+                "fid": 0,
+                "size": 10433350,
+                "vd": -20900
+            },
+            "m": {
+                "br": 192000,
+                "fid": 0,
+                "size": 6260027,
+                "vd": -18300
+            },
+            "l": {
+                "br": 128000,
+                "fid": 0,
+                "size": 4173366,
+                "vd": -16600
+            },
+            "a": null,
+            "cd": "1",
+            "no": 9,
+            "rtUrl": null,
+            "ftype": 0,
+            "rtUrls": [],
+            "djId": 0,
+            "copyright": 1,
+            "s_id": 0,
+            "mark": 0,
+            "originCoverType": 1,
+            "originSongSimpleData": null,
+            "tagPicList": null,
+            "resourceState": true,
+            "version": 888,
+            "songJumpInfo": null,
+            "single": 0,
+            "noCopyrightRcmd": null,
+            "mv": 0,
+            "rtype": 0,
+            "rurl": null,
+            "mst": 9,
+            "cp": 13009,
+            "publishTime": 1256832000000
+        }
+    ],
+    "privileges": [
+        {
+            "id": 5243631,
+            "fee": 8,
+            "payed": 0,
+            "st": 0,
+            "pl": 128000,
+            "dl": 0,
+            "sp": 7,
+            "cp": 1,
+            "subp": 1,
+            "cs": false,
+            "maxbr": 999000,
+            "fl": 128000,
+            "toast": false,
+            "flag": 0,
+            "preSell": false,
+            "playMaxbr": 999000,
+            "downloadMaxbr": 999000,
+            "rscl": null,
+            "freeTrialPrivilege": {
+                "resConsumable": false,
+                "userConsumable": false
+            },
+            "chargeInfoList": [
+                {
+                    "rate": 128000,
+                    "chargeUrl": null,
+                    "chargeMessage": null,
+                    "chargeType": 0
+                },
+                {
+                    "rate": 192000,
+                    "chargeUrl": null,
+                    "chargeMessage": null,
+                    "chargeType": 1
+                },
+                {
+                    "rate": 320000,
+                    "chargeUrl": null,
+                    "chargeMessage": null,
+                    "chargeType": 1
+                },
+                {
+                    "rate": 999000,
+                    "chargeUrl": null,
+                    "chargeMessage": null,
+                    "chargeType": 1
+                }
+            ]
+        }
+    ],
+    "code": 200
+}

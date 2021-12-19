@@ -1,0 +1,14 @@
+CommonJS/AMD/CMD/ESM
+双兰布局、三栏布局、圣杯、双飞翼
+防抖节流等内容，在github上有
+
+
+//对于轮播图监控器中，事件委托为什么在事件捕获阶段
+
+//轮播图实现逻辑不太明白
+
+正则表达式
+
+伪类伪元素
+
+http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html

@@ -1,0 +1,177 @@
+body {
+    min-width: 1000px;
+}
+.recommend-header {
+    margin: 5px 0 10px;
+}
+
+.recommend-header span {
+    color: blue;
+}
+
+.recommend-wrapper {
+    width: 100%;
+}
+.recommend-describe {
+    width: 100%;
+    max-height: 250px;
+}
+
+.recommend-cover {
+    width: 20%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.recommend-cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.recommend-content {
+    flex-grow: 1;
+    
+    overflow: hidden;
+    max-height: 210px;
+}
+
+.recommend-content h3 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.recommend-content  .creat {
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.recommend-content  .creat img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.recommend-content  .playAll-add {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: #2bb669;
+}
+
+.recommend-content  .playAll-add span {
+    cursor: pointer;
+    color: #fff;
+}
+
+.recommend-content  .playAll-add .playAll {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+.recommend-content  .playAll-add  .add {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+.recommend-info {
+    font-size: 12px;
+    margin-top: 10px;
+    width: 800px;
+}
+
+.recommend-info .info {
+    margin-bottom: 3px;
+}
+
+.recommend-info .info .tag {
+    color:deepskyblue;
+}
+
+.recommend-list {
+    margin-top: 5px;
+}
+
+.recommend-list h4 {
+    font-weight: 700;
+}
+
+.table-head {
+    width: 100%;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table-body {
+    width: 100%;
+    overflow: auto;
+    max-height: 300px;
+}
+
+.songlist-item {
+    width: 100%;
+    height: 30px;
+}
+
+.songlist-item:hover {
+    background-color: #f6f6f6;
+}
+
+
+
+.table-head .song {
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 15%;
+}
+
+.table-head .singer {
+    width: 20%;
+}
+
+.table-head .album {
+    width: 20%;
+}
+
+.table-head .songtime {
+    width: 10%;
+}
+.songlist-number {
+    width: 15%;
+}
+
+.songlist-songname {
+    width: 35%;
+}
+
+
+.songlist-artist{
+    text-align: center;
+    width: 20%;
+}
+
+.songlist-album {
+    text-align: center;
+    width: 20%;
+}
+
+.songlist-time {
+    width: 10%;
+    text-align: center;
+}
+
+.odd {
+    background-color: #e6e6e6;
+  }
+  
+ .even {
+    background-color: #e9e9e9;
+  }

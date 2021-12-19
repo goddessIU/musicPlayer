@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/recommendList.css">
+    <script src='assets/iconfont.js'></script>
+</head>
+
+<body>
+    <div class="display-flex flex-column justify-content-between wrapper">
+        <!-- 首页内容 -->
+        <header class='head'>播放器首页</header>
+        <!-- 中间主体部分 -->
+        <section id="app" class="content">
+            <div class="w">
+              <!-- 此处为推荐页，内容主要包括两个部分：歌单介绍和歌单列表 -->
+              <div class="recommend-header">
+                <a href="#home">首页</a>/
+                <span>推荐歌单页</span>
+              </div>
+              <div class="recommend-wrapper">
+                <!-- 此处为推荐页，内容主要包括两个部分：歌单介绍和歌单列表 -->
+                <div class="recommend-describe display-flex justify-content-start">
+                  <!-- 歌单介绍 -->
+                  <div class="recommend-cover">
+                    <img
+                    src="https://th.bing.com/th/id/R7466240255fa48164e1d741fb8b29893?rik=qd9WWhLotZqIAg&riu=http%3a%2f%2fpicture.ik123.com%2fuploads%2fallimg%2f160906%2f3-160Z6154A8.jpg&ehk=T2cuZ%2fECZd2tvUCSXRgW2e2axgZ8c4rM2GQpotzo3Ec%3d&risl=&pid=ImgRaw"
+                    alt=""
+                  />
+                  </div>
+                  <div class="recommend-content display-flex flex-column justify-content-start align-items-start">
+                      <h3>那些年，我们追过的男人</h3>
+                      <div class="creat">
+                        <img
+                        class="avatar"
+                        src="https://th.bing.com/th/id/R7466240255fa48164e1d741fb8b29893?rik=qd9WWhLotZqIAg&riu=http%3a%2f%2fpicture.ik123.com%2fuploads%2fallimg%2f160906%2f3-160Z6154A8.jpg&ehk=T2cuZ%2fECZd2tvUCSXRgW2e2axgZ8c4rM2GQpotzo3Ec%3d&risl=&pid=ImgRaw"
+                        alt=""
+                      />
+                          <span>歌单创造者</span>
+                           <span>创建时间</span>
+                        </div>
+                      <div class="playAll-add">
+                          <span class="playAll">播放全部</span>
+                          <span class="add">+</span>
+                      </div>
+                      <div class="recommend-info">
+                          <div class="info">
+                              <span class="label">标签：</span>
+                              <span class="tag">华语</span>
+                              <span class="tag">治愈</span>
+                          </div>
+                          <div class="info">
+                            <span class="label">歌曲：</span>
+                            <span class="label-info">30</span>
+                            <span class="label">播放：</span>
+                            <span class="label-info">275万</span>
+                          </div>
+                          <div class="info">
+                            <span class="label">简介：</span>
+                            <span class="label-info">你本身也漂亮温柔可爱</span>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="recommend-list">
+                  <!-- 歌单列表  -->
+                  <h4>歌曲列表</h4>
+                  <ul class="table-head display-flex justify-content-start">
+                      <li class='song'>歌曲</li>
+                      <li class='singer'>歌手</li>
+                      <li class='album'>专辑</li>
+                      <li class='songtime'>时长</li>
+                  </ul>
+                  <ul class="table-body">
+                    <li class="songlist-item odd display-flex justify-content-start">
+                        <div class="songlist-number font-color">
+                          <span class="index">02</span>
+                          <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-bofangzhong"></use>
+                          </svg>
+                          <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-bofangzhong"></use>
+                          </svg>
+                        </div>
+                        <div class="songlist-songname">清明雨上</div>
+                        <div class="songlist-artist font-color">许嵩</div>
+                        <div class="songlist-album font-color">清明雨上</div>
+                        <div class="songlist-time font-color">3：13</div>
+                      </li>
+                      <li class="songlist-item even display-flex justify-content-start">
+                        <div class="songlist-number font-color">
+                          <span class="index">02</span>
+                          <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-bofangzhong"></use>
+                          </svg>
+                          <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-bofangzhong"></use>
+                          </svg>
+                        </div>
+                        <div class="songlist-songname">清明雨上</div>
+                        <div class="songlist-artist font-color">许嵩</div>
+                        <div class="songlist-album font-color">清明雨上</div>
+                        <div class="songlist-time font-color">3：13</div>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- 播放器控制 -->
+        <section class='player-control display-flex justify-content-start'>
+            <!-- 左侧歌曲信息 -->
+            <div class="player-control-songInfo display-flex justify-content-start">
+                <div class="img">
+                    <img src="https://th.bing.com/th/id/R7466240255fa48164e1d741fb8b29893?rik=qd9WWhLotZqIAg&riu=http%3a%2f%2fpicture.ik123.com%2fuploads%2fallimg%2f160906%2f3-160Z6154A8.jpg&ehk=T2cuZ%2fECZd2tvUCSXRgW2e2axgZ8c4rM2GQpotzo3Ec%3d&risl=&pid=ImgRaw"
+                        alt="" />
+                </div>
+                <div class="song-content display-flex flex-column align-items-start">
+                    <div class="song-name">大碗宽面</div>
+                    <div class="singer-name single-text-omitted ">吴亦凡giegieyydsyydsyyds</div>
+                </div>
+            </div>
+            <!-- 右侧控件 -->
+            <div class="player-control-unit display-flex justify-content-between">
+                <div class="play-control ">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shangyiqu"></use>
+                      </svg>
+                      <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-bofangzhong"></use>
+                      </svg>
+                      <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiayiqu"></use>
+                      </svg>
+                </div>
+                <div class="song-progress  display-flex justify-content-between">
+                    <div class='time-progress display-flex justify-content-between'>
+                        <span class="current">00:00</span>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                        <span class='end'>00:00</span>
+                    </div>
+                    <div class="volumn display-flex justify-content-between">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yinliang"></use>
+                          </svg>
+                          <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-dot"></div>
+                          </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-liebiaoxunhuan"></use>
+                      </svg>
+                      <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-bofangliebiao"></use>
+                        </svg>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="mediaplayer">
+    <div class="video">
+      <video id="player" src="">Video player not available.</video>
+    </div>
+    <div class="controls">
+      <input type="button" value="Play" id="video-btn" />
+      <span id="curtime">0</span>/
+      <span id="duration">0</span>
+    </div>
+  </div>
+</body>
+<script>
+    let player = document.getElementById("player"),
+  btn = document.getElementById("video-btn"),
+  curtime = document.getElementById("curtime"),
+  duration = document.getElementById("duration");
+
+  player.addEventListener('timeupdate', () => {
+    duration.innerHTML = player.duration;
+  curtime.innerHTML = player.currentTime;
+  })
+  btn.addEventListener('click', (event) => {
+    if (player.paused) {
+      player.play();
+      btn.value = 'Pause';
+    } else {
+      player.pause();
+      btn.value = 'play';
+    }
+  } )
+  localStorage.setItem(name, value);
+  localStorage.getItem(name);
+  localStorage.removeItem(name);
+  localStorage.clear();
+  localStorage.key(index)
+</script>
+</html>
